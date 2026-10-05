@@ -1,0 +1,42 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build, test, and coverage output
+dist/
+build/
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Local databases and generated data
+*.sqlite
+*.sqlite3
+*.db
+data/
+
+# IDE and operating-system files
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local session and tool state
+.copilot/
+.claude/
