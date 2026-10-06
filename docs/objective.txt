@@ -1,0 +1,78 @@
+PROJECT OBJECTIVE
+
+The objective of this project is to design and develop an intelligent, stateful,
+and adaptive non-player character (NPC) architecture that can maintain meaningful
+long-term interactions with players.
+
+The system will process player speech through speech-to-text, identify the
+player's intent and emotional tone, and pass the resulting interaction context
+to an NPC cognitive and persona engine. The engine will maintain persistent
+memories, personality constraints, mood, goals, and player-specific relationship
+states such as trust, affinity, respect, fear, and obligation.
+
+A lightweight local language model will use the NPC's current state, relevant
+memories, predefined persona, backstory, and the current interaction context to
+generate a suitable response. The generated response will be validated against
+the NPC's persona, stored memories, relationship state, and authoritative game
+state before it is delivered to the player.
+
+The project will follow a hybrid architecture in which deterministic components
+control identity, memory provenance, emotional state transitions, relationships,
+world facts, and executable game actions, while the language model provides
+natural-language planning and response generation.
+
+PRIMARY OBJECTIVE
+
+To create a persistent NPC system that adapts its dialogue and behavior to the
+player's actions and emotional context while preserving persona consistency,
+memory accuracy, relationship continuity, and compatibility with the game world.
+
+SPECIFIC OBJECTIVES
+
+1. Develop a speech input pipeline that converts player speech into text and
+   exposes transcription confidence.
+
+2. Detect player intent, relevant entities, and emotional or tonal signals from
+   each interaction.
+
+3. Define a layered NPC state model separating immutable identity, stable
+   persona, current goals, mood, relationships, episodic memories, semantic
+   beliefs, and executable actions.
+
+4. Store persistent interaction events, memories, persona facts, mood changes,
+   relationship updates, and state snapshots using PostgreSQL.
+
+5. Implement memory retrieval using relevance, recency, importance, confidence,
+   provenance, and relationship context.
+
+6. Support memory consolidation from individual interaction events into
+   higher-level semantic beliefs while preserving source references and
+   uncertainty.
+
+7. Implement an appraisal mechanism that interprets player actions according to
+   the NPC's goals, values, expectations, and relationship with the player.
+
+8. Update mood and relationship variables using transparent, bounded, and
+   confidence-aware state-transition rules.
+
+9. Use a lightweight local language model to generate persona-consistent
+   dialogue and structured game-action proposals.
+
+10. Validate generated responses and actions against persona constraints,
+    retrieved memories, relationship state, safety rules, and authoritative
+    game state.
+
+11. Evaluate the system using memory accuracy, persona consistency, emotional
+    appropriateness, relationship continuity, action validity, latency, and
+    player-perceived believability.
+
+EXPECTED OUTCOME
+
+The expected outcome is a working prototype of an NPC that can remember prior
+player interactions, adapt its mood and relationships over time, respond to
+player intent and emotion, perform validated game actions, and remain consistent
+with its predefined personality and backstory.
+
+The project should demonstrate that a hybrid stateful architecture provides more
+reliable long-term NPC behavior than a language model that generates responses
+from only the current conversation context.

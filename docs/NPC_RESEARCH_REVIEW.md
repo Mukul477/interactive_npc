@@ -356,3 +356,177 @@ Build a replayable test set containing neutral, kind, hostile, deceptive, ambigu
 13. Liu, X. et al. “AgentBench: Evaluating LLMs as Agents.” 2023. https://arxiv.org/abs/2308.03688
 
 Links were checked against the linked publisher, ACL Anthology, project, or arXiv landing pages on 2026-10-05. Preprints and industry material are labeled so their evidence is not confused with peer-reviewed findings.
+
+## 10. Extended literature set
+
+The following references broaden the project literature beyond the core sources. They are grouped by the subsystem they can inform. Not every paper is an NPC paper; the connection is stated so that foundational methods are not presented as direct evidence about games.
+
+### A. Believable agents, games, social simulation, and computational emotion
+
+14. Bates, J. “The Role of Emotion in Believable Agents.” *Communications of the ACM*, 1994. [DOI](https://doi.org/10.1145/176789.176803) — Foundational argument that emotion, goals, and social context are necessary for believable agent behavior.
+
+15. Mateas, M. “An Oz-Centric Review of Interactive Drama and Believable Agents.” *AI and Interactive Entertainment*, 2002. [PDF](https://www.cs.cmu.edu/~illah/CLASS_USE/Oz-review.pdf) — Reviews planning, authorial control, and believable-agent architectures for interactive narrative.
+
+16. Mateas, M. and Stern, A. “Façade: An Experiment in Building a Fully-Realized Interactive Drama.” *Game Developers Conference*, 2003. [Project page](https://www.interactivestory.net/) — Demonstrates beat-based narrative management, discourse acts, and authored dramatic control.
+
+17. Si, M., Marsella, S., and Pynadath, D. “Thespian: Using Multi-Agent Fitting to Craft Interactive Drama.” *AAMAS*, 2009. [DOI](https://doi.org/10.1145/1558013.1558177) — Uses multi-agent planning and social reasoning to generate interactive drama.
+
+18. Riedl, M. O. and Young, R. M. “Narrative Planning: Balancing Plot and Character.” *Journal of Artificial Intelligence Research*, 2010. [Paper](https://www.jair.org/index.php/jair/article/view/10569) — Relevant to balancing NPC goals, player agency, and authored story constraints.
+
+19. Riedl, M. O. and Bulitko, V. “Interactive Narrative: An Intelligent Systems Approach.” *AI Magazine*, 2013. [DOI](https://doi.org/10.1609/aimag.v34i1.2449) — Surveys planning and adaptation for interactive narratives.
+
+20. Swartjes, I. and Theune, M. “The Virtual Storyteller: Story Generation by Simulation.” *Computational Linguistics*, 2006. [ACL Anthology](https://aclanthology.org/W06-1503/) — Models characters, events, and story generation through simulation.
+
+21. Traum, D. et al. “Building Virtual Humans with a Multimodal Architecture.” *IEEE Intelligent Systems*, 2004. [DOI](https://doi.org/10.1109/MIS.2004.1265898) — Provides a multimodal architecture for embodied conversational agents.
+
+22. Gratch, J. and Marsella, S. “A Domain-Independent Framework for Modeling Emotion.” *Cognitive Systems Research*, 2004. [DOI](https://doi.org/10.1016/j.cogsys.2004.02.002) — Connects appraisal, goals, and emotional state transitions in computational agents.
+
+23. Marsella, S. and Gratch, J. “EMA: A Process Model of Appraisal Dynamics.” *Cognitive Systems Research*, 2009. [DOI](https://doi.org/10.1016/j.cogsys.2008.03.005) — A practical reference for implementing event appraisal and mood dynamics.
+
+24. Ortony, A., Clore, G. L., and Collins, A. *The Cognitive Structure of Emotions*. Cambridge University Press, 1988. [Publisher](https://www.cambridge.org/core/books/cognitive-structure-of-emotions/3AE3D0D715F4C2B5D2C7B4B87E2B79A5) — Defines the OCC appraisal categories that can structure NPC emotion updates.
+
+25. Rao, A. S. and Georgeff, M. P. “BDI Agents: From Theory to Practice.” 1995. [Paper](https://www.cs.ubc.ca/~mack/Publications/AIJ-1995.pdf) — Supplies a formal model for beliefs, goals, intentions, and action selection.
+
+26. Funge, J., Tu, X., and Terzopoulos, D. “Cognitive Modeling: Knowledge, Reasoning and Planning for Intelligent Characters.” *Proceedings of SIGGRAPH*, 1999. [DOI](https://doi.org/10.1145/311535.311560) — Connects world knowledge, planning, and character behavior in interactive environments.
+
+27. ElSayed, S. and King, D. J. “Affect and Believability in Game Characters: A Review of the Use of Affective Computing in Games.” GAME-ON, 2017. [Publication record](https://rke.abertay.ac.uk/en/publications/affect-and-believability-in-game-characters-a-review-of-the-use-o/) — Reviews affective computing requirements for emotionally believable game characters.
+
+28. Yannakakis, G. N. and Melhart, D. “Affective Game Computing: A Survey.” 2023. [arXiv](https://arxiv.org/abs/2309.14104) — Surveys sensing, modeling, and adaptation in affect-aware games.
+
+29. Melhart, D. et al. “Procedural Content Generation for Games: A Survey.” *IEEE Transactions on Games*, 2023. [DOI](https://doi.org/10.1109/TG.2023.3250453) — Useful for generating varied NPC events, quests, and social situations.
+
+30. Mitchell, K., Pettijohn, C., and McCoy, J. “Never a Dull Moment: Believable Dynamic Character Beat Generation between Game World Events.” *AIIDE*, 2022. [AAAI](https://ojs.aaai.org/index.php/AIIDE/article/view/21974) — Directly addresses dynamic character beats and believable behavior between authored world events.
+
+### B. Dialogue, grounding, persona, empathy, and social interaction
+
+31. Dinan, E. et al. “Wizard of Wikipedia: Knowledge-Powered Conversational Agents.” *ICLR*, 2019. [OpenReview](https://openreview.net/forum?id=H1g6XeR9KX) — Grounds dialogue in retrieved knowledge and provides a benchmark for factual conversational responses.
+
+32. Gopalakrishnan, K. et al. “Topical-Chat: Towards Knowledge-Grounded Open-Domain Conversations.” *INTERSPEECH*, 2019. [arXiv](https://arxiv.org/abs/1811.01394) — Combines conversation with topic and knowledge grounding.
+
+33. Dinan, E. et al. “Build It Break It Fix It: Behavior Sets for Open-Domain Dialogue.” *EMNLP*, 2019. [ACL Anthology](https://aclanthology.org/D19-1189/) — Demonstrates adversarial collection and evaluation for dialogue behavior.
+
+34. Roller, S. et al. “Recipes for Building an Open-Domain Chatbot.” *EACL*, 2021. [ACL Anthology](https://aclanthology.org/2021.eacl-main.24/) — Practical lessons for data, retrieval, generation, and evaluation in open-domain dialogue.
+
+35. Thoppilan, R. et al. “LaMDA: Language Models for Dialog Applications.” 2022. [arXiv](https://arxiv.org/abs/2201.08239) — Studies quality, safety, and groundedness dimensions for dialog-oriented language models.
+
+36. Ouyang, L. et al. “Training Language Models to Follow Instructions with Human Feedback.” *NeurIPS*, 2022. [Paper](https://arxiv.org/abs/2203.02155) — Important background for instruction following and human preference alignment.
+
+37. Bai, Y. et al. “Constitutional AI: Harmlessness from AI Feedback.” 2022. [Paper](https://arxiv.org/abs/2212.08073) — Relevant to defining NPC response constraints and self-critique policies.
+
+38. Welivita, A. and Pu, P. “A Taxonomy of Empathetic Response Intents in Human Social Conversations.” *ACL*, 2020. [ACL Anthology](https://aclanthology.org/2020.nlp4convai-1.4/) — Helps define response intents such as acknowledging, comforting, encouraging, and suggesting.
+
+39. Li, J. et al. “Towards a Unified Evaluation of Empathetic Dialogue Systems.” *EMNLP Findings*, 2024. [ACL Anthology](https://aclanthology.org/2024.findings-emnlp.113/) — Supports multidimensional evaluation instead of a single empathy score.
+
+40. Clark, L. et al. “Building Common Ground in Dialogue: A Survey.” *Findings of EMNLP*, 2024. [ACL Anthology](https://aclanthology.org/2024.findings-emnlp.113/) — Provides concepts for grounding, alignment, and shared conversational context.
+
+41. Roller, S. et al. “Open-Domain Dialog Evaluation.” *ACL*, 2021. [ACL Anthology](https://aclanthology.org/2021.acl-long.395/) — Reviews problems with automatic dialogue evaluation and supports human-centered evaluation design.
+
+42. Li, J. et al. “A Persona-Based Neural Conversation Model.” *ACL*, 2016. [ACL Anthology](https://aclanthology.org/P16-1094/) — Early neural approach to persona-conditioned response generation.
+
+43. Wolf, T. et al. “TransferTransfo: A Transfer Learning Approach for Neural Network Based Conversational Agents.” 2019. [OpenReview](https://openreview.net/forum?id=H1g1tQYk) — Early large-scale persona and dialogue transfer-learning baseline.
+
+### C. LLM agents, planning, tools, reflection, and embodied action
+
+44. Yao, S. et al. “ReAct: Synergizing Reasoning and Acting in Language Models.” *ICLR*, 2023. [OpenReview](https://openreview.net/forum?id=WE_vluYUL-X) — Interleaves reasoning and actions; useful for structured NPC action selection.
+
+45. Schick, T. et al. “Toolformer: Language Models Can Teach Themselves to Use Tools.” *NeurIPS*, 2023. [Paper](https://arxiv.org/abs/2302.04761) — Motivates typed tools for game actions, databases, and world queries.
+
+46. Yao, S. et al. “Tree of Thoughts: Deliberate Problem Solving with Large Language Models.” *NeurIPS*, 2023. [Paper](https://arxiv.org/abs/2305.10601) — Provides a planning/search pattern for comparing candidate NPC actions.
+
+47. Madaan, A. et al. “Self-Refine: Iterative Refinement with Self-Feedback.” *NeurIPS*, 2023. [Paper](https://arxiv.org/abs/2303.17651) — Supports generating, critiquing, and revising a response before delivery.
+
+48. Wang, X. et al. “Plan-and-Solve Prompting.” *ACL*, 2023. [ACL Anthology](https://aclanthology.org/2023.acl-long.147/) — Separates planning from execution, a useful pattern for NPC goals and dialogue.
+
+49. Sumers, T. R. et al. “Cognitive Architectures for Language Agents.” *Transactions on Machine Learning Research*, 2024. [Paper](https://arxiv.org/abs/2309.02427) — Surveys memory, planning, perception, and action modules for language agents.
+
+50. Wang, G. et al. “Voyager: An Open-Ended Embodied Agent with Large Language Models.” 2023. [Paper](https://arxiv.org/abs/2305.16291) — Skill libraries, automatic curriculum, and embodied feedback.
+
+51. Zhou, S. et al. “WebArena: A Realistic Web Environment for Building Autonomous Agents.” *ICLR*, 2024. [OpenReview](https://openreview.net/forum?id=oWSLJzs0RM) — Provides ideas for evaluating agents in stateful environments with real consequences.
+
+52. Yao, S. et al. “τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains.” 2024. [Paper](https://arxiv.org/abs/2406.12045) — Useful for evaluating stateful tool use and multi-turn policy adherence.
+
+### D. Memory, retrieval, knowledge graphs, and long-context systems
+
+53. Guu, K. et al. “REALM: Retrieval-Augmented Language Model Pre-Training.” *ICML*, 2020. [PMLR](https://proceedings.mlr.press/v119/guu20a.html) — Early retrieval-augmented language-model architecture.
+
+54. Karpukhin, V. et al. “Dense Passage Retrieval for Open-Domain Question Answering.” *EMNLP*, 2020. [ACL Anthology](https://aclanthology.org/2020.emnlp-main.550/) — Establishes dense retrieval as a strong baseline for selecting relevant memories.
+
+55. Izacard, G. and Grave, E. “Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering.” *EACL*, 2021. [ACL Anthology](https://aclanthology.org/2021.eacl-main.74/) — Fusion of multiple retrieved passages for grounded generation.
+
+56. Khattab, O. and Zaharia, M. “ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT.” *SIGIR*, 2020. [DOI](https://dl.acm.org/doi/10.1145/3397271.3401075) — Strong retrieval architecture for fine-grained memory matching.
+
+57. Izacard, G. et al. “Atlas: Few-Shot Learning with Retrieval Augmented Language Models.” *JMLR*, 2023. [JMLR](https://www.jmlr.org/papers/v24/23-0037.html) — Studies retrieval-augmented models under few-shot conditions.
+
+58. Gao, L. et al. “Precise Zero-Shot Dense Retrieval without Relevance Labels.” *ACL*, 2023. [ACL Anthology](https://aclanthology.org/2023.acl-long.99/) — Contriever provides a useful unsupervised retrieval baseline.
+
+59. Gao, Y. et al. “Retrieval-Augmented Generation for Large Language Models: A Survey.” 2023. [Paper](https://arxiv.org/abs/2312.10997) — Taxonomy of retrieval, augmentation, and generation design choices.
+
+60. Edge, D. et al. “From Local to Global: A Graph RAG Approach to Query-Focused Summarization.” 2024. [Paper](https://arxiv.org/abs/2404.16130) — Relevant to social-memory graphs and community-level NPC knowledge.
+
+61. Gutierrez, B. J. et al. “HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models.” *NeurIPS*, 2024. [Paper](https://arxiv.org/abs/2405.14831) — Uses associative retrieval and knowledge graphs for long-term memory.
+
+62. Zhang, Z. et al. “A Survey on the Memory Mechanism of Large Language Model Based Agents.” 2024. [Paper](https://arxiv.org/abs/2404.13501) — Taxonomy of working, episodic, semantic, procedural, and parametric memory.
+
+63. Wang, L. et al. “A-MEM: Agentic Memory for LLM Agents.” 2025. [Paper](https://arxiv.org/abs/2502.12110) — Dynamic memory organization and linking for agentic workflows.
+
+64. Anokhin, P. et al. “AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents.” 2024. [Paper](https://arxiv.org/abs/2407.04363) — Combines episodic memory with graph world models for planning.
+
+### E. Speech, language, multimodal input, and emotion recognition
+
+65. Baevski, A. et al. “wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations.” *NeurIPS*, 2020. [Paper](https://arxiv.org/abs/2006.1143) — Strong self-supervised speech representation baseline.
+
+66. Hsu, W.-N. et al. “HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units.” *IEEE/ACM TASLP*, 2021. [Paper](https://arxiv.org/abs/2106.07447) — Alternative speech representation model useful for emotion and intent features.
+
+67. Ao, J. et al. “SpeechT5: Unified-Modal Encoder-Decoder Pre-Training for Spoken Language Processing.” *ACL*, 2022. [ACL Anthology](https://aclanthology.org/2022.acl-long.494/) — Unifies speech and text representations for spoken-language systems.
+
+68. Barrault, L. et al. “SeamlessM4T: Massively Multilingual and Multimodal Machine Translation.” 2023. [Paper](https://arxiv.org/abs/2308.11596) — Reference for multilingual speech input and speech output pipelines.
+
+69. Busso, C. et al. “IEMOCAP: Interactive Emotional Dyadic Motion Capture Database.” *Language Resources and Evaluation*, 2008. [DOI](https://doi.org/10.1007/s10579-008-9076-6) — Standard acted emotional-speech benchmark.
+
+70. Poria, S. et al. “MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversations.” *ACL*, 2019. [ACL Anthology](https://aclanthology.org/P19-1050/) — Multimodal and conversational emotion-recognition benchmark.
+
+71. Livingstone, S. R. and Russo, F. A. “The Ryerson Audio-Visual Database of Emotional Speech and Song.” *PLOS ONE*, 2018. [DOI](https://doi.org/10.1371/journal.pone.0196391) — Audio-visual emotion data for speech affect research.
+
+72. Zadeh, A. et al. “Tensor Fusion Network for Multimodal Sentiment Analysis.” *EMNLP*, 2017. [ACL Anthology](https://aclanthology.org/D17-1115/) — A classic multimodal fusion method relevant to speech, text, and facial cues.
+
+73. Tsai, Y.-H. H. et al. “Multimodal Transformer for Unaligned Multimodal Language Sequences.” *ACL*, 2019. [ACL Anthology](https://aclanthology.org/P19-1656/) — Models asynchronous text, audio, and visual signals.
+
+74. Cowen, A. and Keltner, D. “Self-Report Captures 27 Distinct Categories of Emotion Bridged by Continuous Gradients.” *PNAS*, 2017. [DOI](https://doi.org/10.1073/pnas.1702247114) — Supports using continuous affect dimensions rather than only discrete labels.
+
+### F. Evaluation, safety, reliability, and human-centered assessment
+
+75. Liang, P. et al. “Holistic Evaluation of Language Models.” *Transactions on Machine Learning Research*, 2023. [Paper](https://arxiv.org/abs/2211.09110) — Provides a broad evaluation framework for capability, calibration, robustness, and bias.
+
+76. Liu, Y. et al. “G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment.” *EMNLP*, 2023. [ACL Anthology](https://aclanthology.org/2023.emnlp-main.153/) — Automated evaluation design; should be combined with human judgments for NPC dialogue.
+
+77. Li, J. et al. “HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models.” *EMNLP*, 2023. [ACL Anthology](https://aclanthology.org/2023.emnlp-main.439/) — Relevant to fabricated memories and false NPC claims.
+
+78. Lin, S. et al. “TruthfulQA: Measuring How Models Mimic Human Falsehoods.” *ACL*, 2022. [ACL Anthology](https://aclanthology.org/2022.acl-long.229/) — Relevant to testing truthfulness and resistance to plausible but false responses.
+
+79. Zheng, L. et al. “Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena.” *NeurIPS*, 2023. [Paper](https://arxiv.org/abs/2306.05685) — Discusses model-based and human preference evaluation, including judge reliability.
+
+80. Liu, X. et al. “AgentBench: Evaluating LLMs as Agents.” *ICLR*, 2024. [OpenReview](https://openreview.net/forum?id=zAdUB0aCTQ) — Multi-environment benchmark for planning and tool use.
+
+81. Qin, Y. et al. “ToolBench: Towards Mastering Every Tool for LLMs.” 2023. [Paper](https://arxiv.org/abs/2307.16789) — Useful reference for evaluating structured tool/API use.
+
+82. Ji, Z. et al. “Survey of Hallucination in Natural Language Generation.” *ACM Computing Surveys*, 2023. [DOI](https://doi.org/10.1145/3571730) — Taxonomy of hallucinations relevant to NPC memories and world facts.
+
+83. Weidinger, L. et al. “Taxonomy of Risks Posed by Language Models.” *FAccT*, 2022. [ACM](https://doi.org/10.1145/3531146.3533088) — Helps define safety and misuse tests for player-facing dialogue.
+
+84. Amodei, D. et al. “Concrete Problems in AI Safety.” 2016. [Paper](https://arxiv.org/abs/1606.06565) — Foundational safety taxonomy covering reward hacking, side effects, and distribution shift.
+
+85. Perez, E. et al. “Red Teaming Language Models with Language Models.” *EMNLP*, 2022. [ACL Anthology](https://aclanthology.org/2022.emnlp-main.225/) — Supports adversarial testing of prompt and dialogue boundaries.
+
+86. Saito, K. et al. “The Ethics of AI in Games: A Systematic Review.” 2024. [Scholar search](https://scholar.google.com/scholar?q=ethics+of+AI+in+games+systematic+review) — Use for player consent, profiling, emotional manipulation, and data-retention questions.
+
+### How to use this expanded set
+
+Use the references that directly support each design claim rather than listing citations without synthesis. A practical division is:
+
+- **Core architecture:** 14–30, 44–50, 62–64.
+- **Persona and social dialogue:** 31–43.
+- **Memory and retrieval implementation:** 53–64.
+- **Speech and emotion pipeline:** 65–74.
+- **Testing and reliability:** 75–86.
+
+The expanded set now contains more than 80 distinct references. Several items are surveys, foundational books, benchmarks, or engineering papers rather than direct NPC studies; this is intentional because a sound system design needs evidence for each subsystem and not only papers that use the word “NPC.”
