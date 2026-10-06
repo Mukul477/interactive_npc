@@ -40,3 +40,5 @@ Thumbs.db
 # Local session and tool state
 .copilot/
 .claude/
+
+.vscode
